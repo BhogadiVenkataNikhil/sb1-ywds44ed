@@ -1,4 +1,5 @@
 import React from 'react';
+import profile-2.jpeg;
 
 const About: React.FC = () => {
   return (
@@ -13,7 +14,7 @@ const About: React.FC = () => {
               <div className="rounded-xl overflow-hidden shadow-lg bg-gradient-to-br from-blue-500 to-purple-600 p-1">
                 <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden">
                   <img 
-                    src="https://raw.githubusercontent.com/VenkataBhogadi/portfolio/main/profile.jpg" 
+                    src="profile-2.jpeg" 
                     alt="Profile" 
                     className="w-full h-auto transform transition-transform hover:scale-105 duration-300" 
                   />
